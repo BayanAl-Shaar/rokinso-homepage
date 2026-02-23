@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "LyonArabic";
+  src: url("/fonts/ttf/COMM%20-%20Lyon%20Arabic%20Text%20Light.ttf") format("truetype"),
+       url("/fonts/otf/COMM%20-%20Lyon%20Arabic%20Text%20Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LyonArabic";
+  src: url("/fonts/ttf/COMM%20-%20Lyon%20Arabic%20Text%20Regular.ttf") format("truetype"),
+       url("/fonts/otf/COMM%20-%20Lyon%20Arabic%20Text%20Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LyonArabic";
+  src: url("/fonts/ttf/COMM%20-%20Lyon%20Arabic%20Text%20Medium.ttf") format("truetype"),
+       url("/fonts/otf/COMM%20-%20Lyon%20Arabic%20Text%20Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LyonArabic";
+  src: url("/fonts/ttf/COMM%20-%20Lyon%20Arabic%20Text%20Semibold.ttf") format("truetype"),
+       url("/fonts/otf/COMM%20-%20Lyon%20Arabic%20Text%20Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LyonArabic";
+  src: url("/fonts/ttf/COMM%20-%20Lyon%20Arabic%20Text%20Bold.ttf") format("truetype"),
+       url("/fonts/otf/COMM%20-%20Lyon%20Arabic%20Text%20Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LyonArabic";
+  src: url("/fonts/ttf/COMM%20-%20Lyon%20Arabic%20Text%20Black.ttf") format("truetype"),
+       url("/fonts/otf/COMM%20-%20Lyon%20Arabic%20Text%20Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: "LyonArabic", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}
