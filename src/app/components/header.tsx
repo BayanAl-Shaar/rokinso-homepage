@@ -57,9 +57,8 @@ export function Header() {
           {/* Navigation - Desktop */}
           <nav className="hidden lg:flex items-center gap-2">
             {navItems.map((item) => (
-              <a
+              <span
                 key={item.id}
-                href={`#${item.id}`}
                 className={`px-4 py-2 text-sm transition-all duration-300 rounded-lg ${
                   activeSection === item.id
                     ? 'text-[#03045E] bg-[#03045E]/5 font-semibold'
@@ -67,7 +66,7 @@ export function Header() {
                 }`}
               >
                 {item.label}
-              </a>
+              </span>
             ))}
           </nav>
 
